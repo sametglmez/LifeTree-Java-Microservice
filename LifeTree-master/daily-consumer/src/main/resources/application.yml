@@ -1,0 +1,16 @@
+Server:
+  port: 8081
+
+kafka:
+  broker:
+    url: localhost:9092
+  consumer:
+    group-id: dailyTopicConsumerGroup
+  topic:
+    name: daily-topic
+
+
+mongodb:
+  connectionString: mongodb://localhost:27017/local
+  database:
+    name: local
